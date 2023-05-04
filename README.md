@@ -7,13 +7,13 @@ The following is a list of the projects included in this repository:
 
 - **Project 1: Classification using Logistic Regression**
 
-  - Description: This project explores classification using logistic regression. The goal is to predict whether a bank loan will be approved or not, based on various features of the loan application.
+  - Description: This project explores classification using Decision Tree Regressor. The goal is to predict whether a bank loan will be approved or not, based on various features of the loan application.
 Technologies used: Python, Scikit-learn
 Folder location: `./project1_europe_bikes`
 
 To run any of the projects in this repository, you will need to have the necessary dependencies installed. The projects were developed using Python 3, and require the following libraries:
 
-
+- jupyter
 - Pandas
 - Scikit-learn
   
@@ -21,7 +21,7 @@ To install these libraries, you can use the following command:
 
 
 ```bash
-pip install pandas scikit-learn 
+pip install jupyter pandas scikit-learn 
 ```
 Once you have the dependencies installed, you can navigate to the folder of the project you want to run and execute the main Python file. For example, to run Project 1, you would use the following commands:
 
