@@ -21,9 +21,16 @@ To install these libraries, you can use the following command:
 
 
 ```bash
-pip install jupyter pandas scikit-learn 
+pip install pandas scikit-learn 
 ```
+
 Once you have the dependencies installed, you can navigate to the folder of the project you want to run and execute the main Python file. For example, to run Project 1, you would use the following commands:
+
+ Open the Jupyter notebook:
+``` bash
+jupyter notebook
+```
+Run the cells in the notebook to see the results of the analysis
 
 ```bash
 cd ./project1_europe_bikes pd.ipynb
