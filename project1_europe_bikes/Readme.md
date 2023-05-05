@@ -1,52 +1,73 @@
-## Análise de Dados do Spotify e YouTube
+# **European Bike Sales**
 
-Este é um projeto de análise de dados que utiliza um dataset do Spotify e YouTube disponível no Kaggle (https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube). Este dataset foi colectado em ***7 de Fevereiro de 2023***.
-O objetivo desta análise é obter insights sobre as músicas mais populares, e sobre artistas no Spotify e YouTube.
+This project uses machine learning techniques to predict the unit prices of bicycles based on various features. The dataset used in this project can be found on Kaggle: 
 
-- Pré-requisitos
-Para executar este projeto, você precisará ter o Python 3 instalado em seu computador, além de algumas bibliotecas como Pandas, Matplotlib e Seaborn. Você pode instalá-las usando o pip com o seguinte comando:
+## Requirements
+This project requires the following libraries:
 
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+You can install them using the following command:
 
-```pip install pandas matplotlib seaborn```
+``` bash
+pip install pandas numpy matplotlib seaborn scikit-learn 
+```
+## Usage
+To run this project, follow these steps:
 
-### Instruções
-Para executar este projeto, siga os seguintes passos: 
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/your_username/european-bike-sales.git
+```
+2. Navigate to the project directory:
+```bash
+cd european-bike-sales
+```
 
-- Baixe o dataset do Spotify e YouTube do Kaggle (https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube) e extraia os arquivos para uma pasta em seu computador.
-- Abra o arquivo "pd.ipynb" em um Jupyter Notebook ou ambiente de desenvolvimento Python de sua preferência.
-- Execute as células do notebook para carregar, limpar e analisar os dados.
+3. Open the Jupyter notebook:
+``` bash
+jupyter notebook
+```
 
+4. Run the cells in the notebook to see the results of the analysis.
 
-Dataset
+## Dataset
+The dataset used in this project contains information about the sales of bicycles in Europe. The dataset includes the following features:
 
-- O dataset contém informações sobre cerca de 19.691 músicas, incluindo seus artistas, popularidade, duração, nota, bem como as informações do vídeo correspondente no YouTube, como número de visualizações, curtidas.
+- Day
+- Year
+- Customer_Age
+- Order_Quantity
+- Unit_Cost
+- Profit
+- Cost
+- Revenue
+The objective of this project is to use these features to predict the unit prices of bicycles.
 
-### Análise
-Nesta análise, exploramos as seguintes perguntas:
+## Analysis
+The analysis is divided into the following sections:
 
-- Quais são as músicas mais populares no Spotify e YouTube?
+1. Data Cleaning: The dataset is cleaned by removing any missing or duplicate values.
 
-- Quais são os artistas mais populares no Spotify e YouTube?
+2. Exploratory Data Analysis: The relationships between the features and the target variable are explored using visualizations.
 
-Para responder a essas perguntas, realizamos diversas análises exploratórias de dados, utilizando gráficos, tabelas e estatísticas descritivas.
+3. Feature Engineering: New features are created based on the existing features in order to improve the performance of the machine learning models.
 
-### Resultados
-Entre as conclusões alcançadas nesta análise, destacamos as seguintes:
+4. Machine Learning: Two machine learning models are trained and evaluated using the dataset: Linear Regression and Decision Tree Regressor.
 
-As músicas mais populares no Spotify nem sempre são as mais populares no YouTube.
+## Results
+The machine learning models were evaluated using the following metrics:
 
-- Os artistas mais populares no Spotify e YouTube são principalmente artistas famosos da cena Pop e Hip Hop.
-- As músicas mais curtas tendem a ser mais populares no Spotify, enquanto as músicas mais longas tendem a ser mais populares no YouTube.
-- Entre as músicas cristãs, algumas das mais populares incluem "Oceans" do grupo Hillsong United e "What A Beautiful Name" do grupo Hillsong Worship.
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+The results of the analysis show that the Decision Tree Regressor outperformed the Linear Regression model in all three metrics.
 
-- Há uma grande correlação entre as curtidas e as visualizações no YouTube, significando que quanto maior for as visualizações, maior será as curtidas.
+## Conclusion
+This project demonstrates how machine learning techniques can be used to predict the unit prices of bicycles based on various features. The Decision Tree Regressor was found to be the best model for this dataset, and achieved better results than the Linear Regression model. This project provides a framework for future work in the field of bicycle sales forecasting.
 
-### Conclusão
-Este projeto de análise de dados do Spotify e YouTube nos forneceu diversas informações interessantes sobre as músicas mais populares e artistas. É importante destacar que essas informações são relativas ao dataset utilizado e podem variar ao longo do tempo, de acordo com as mudanças na indústria musical e nas preferências do público. No entanto, a análise demonstra a importância dos dados na compreensão dos gostos e comportamentos do público em relação à música,além de fornecer uma base sólida para futuras análises e tomada de decisões relacionadas à indústria musical.
-
-A seguir, estão alguns dos gráficos gerados durante a análise:
-
-
-
-### Contribuição
-Este projeto é aberto a contribuições e melhorias. Se você quiser contribuir, pode fazer um fork deste repositório, criar um branch com suas alterações e enviar um pull request para ser revisado.
+## License
+This project is licensed under the MIT License. 
