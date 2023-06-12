@@ -78,9 +78,9 @@ To ensure data reliability and consistency, a meticulous data cleaning process w
 
 4. **Value Validation**: The values in various columns were validated to ensure they corresponded to the expected categories and fell within acceptable ranges. The validation process ensured the consistency and conformity of the values in these columns with their respective predefined categories.
 
-Following the completion of these data cleaning steps, the dataset was prepared for Exploratory Data Analysis (EDA
+Following the completion of these data cleaning steps, the dataset was prepared for Exploratory Data Analysis (EDA)
 
-) to extract meaningful insights about bike sales in Europe.
+to extract meaningful insights about bike sales in Europe.
 
 ### Exploratory Data Analysis 
 
