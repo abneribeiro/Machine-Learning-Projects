@@ -1,4 +1,4 @@
-# **Machine Learning Projects**
+
 
 This repository contains a collection of simple machine learning projects. Each project is contained in its own folder, which includes the necessary code and data files. The projects are designed to be easy to understand and run, and are suitable for beginners who are learning machine learning.
 
